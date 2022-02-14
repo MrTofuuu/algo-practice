@@ -31,7 +31,7 @@ function plusMinus(arr) {
     let negOne = arr.filter(number => number < 0).length / arr.length;
     let zeroNum = arr.filter(number => number == 0).length / arr.length; 
     let posOne = arr.filter(number => number > 0).length / arr.length;
-    return console.log(posOne.toFixed(6) + '\n' + negOne.toFixed(6) + '\n' + zeroNum.toFixed(6))
+    return console.log(posOne.toFixed(6) + '\n' + negOne.toFixed(6) + '\n' + zeroNum.toFixed(6));
 
 }
 
