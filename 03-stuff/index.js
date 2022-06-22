@@ -1,0 +1,1 @@
+//find minimum and maximum sum of array with 5 elements
